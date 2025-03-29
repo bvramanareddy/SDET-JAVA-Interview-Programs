@@ -7,7 +7,6 @@ public class FindTheLongestStringFromSentence {
         for (String word : words) {
            if (word.length()>longestWord.length()) {
             longestWord = word;
-            
            }
                 
             }
