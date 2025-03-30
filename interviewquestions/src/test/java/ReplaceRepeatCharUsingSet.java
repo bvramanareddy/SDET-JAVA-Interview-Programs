@@ -9,15 +9,12 @@ public class ReplaceRepeatCharUsingSet {
         for (Character letter : letters) {
             if (set.contains(letter)) {
                 newString.append(replacement);
-
             } else {
                 newString.append(letter);
                 set.add(letter);
-
             }
         }
         return newString.toString();
-
     }
 
     public static void main(String[] args) {
